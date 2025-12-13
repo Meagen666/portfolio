@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meagen Chong - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">◆</span>
+                <span>Meagen Chong</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#activities" class="nav-link">Activities</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="page-number">01</div>
+        <div class="background-pattern"></div>
+        <div class="home-container">
+            <h1 class="home-name">Meagen Chong</h1>
+            <p class="home-title">Applied Artificial Intelligence Student</p>
+            <p class="home-summary">
+                A motivated Applied Artificial Intelligence student at Temasek
+                Polytechnic (2024–2027), recognised on the Director’s List for
+                academic excellence. Skilled in Python programming, machine learning, and cloud-based application development.
+                Experienced in training and deploying models, implementing OCR-based image processing, and integrating automation
+                workflows into real-world projects. Skilled in building functional AI solutions through data preprocessing, model
+                evaluation, and user-focused app development using tools such as TensorFlow, AWS, Flutter, and UiPath. Recognised
+                for analytical problem-solving, attention to detail, and effective teamwork through multiple academic and
+                co-curricular projects in AI and software development. Driven to apply technical knowledge, learn advanced
+                techniques, and contribute meaningfully to impactful technology projects.
+            </p>
+            <div class="resume-box" onclick="openResume()">
+                <span>View Full Resume</span>
+            </div>
+            <div class="social-links">
+                <a href="mailto:meagen666@gmail.com" class="social-link" target="_blank" aria-label="Email">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/Meagen666" class="social-link" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/meagen-chong-9192a631a/" class="social-link" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="page-number">02</div>
+        <div class="background-pattern"></div>
+        <div class="about-container">
+            <div class="about-left">
+                <h2 class="about-title">ABOUT ME</h2>
+                <p class="about-subtitle">My Profile At A Glance</p>
+                <ul class="about-nav">
+                    <li><a href="#introduction" class="about-nav-link active" data-section="introduction">Introduction</a></li>
+                    <li><a href="#skills" class="about-nav-link" data-section="skills">Skills</a></li>
+                    <li><a href="#education" class="about-nav-link" data-section="education">Education</a></li>
+                </ul>
+                <div class="about-social-links">
+                    <a href="mailto:meagen666@gmail.com" class="about-social-link" target="_blank" aria-label="Email">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/Meagen666" class="about-social-link" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/meagen-chong-9192a631a/" class="about-social-link" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="about-content">
+                    <!-- Introduction -->
+                    <div id="introduction" class="about-section-content">
+                        <h3 class="section-heading">• Introduction</h3>
+                        <div class="intro-content">
+                            <div class="intro-image-placeholder">
+                                <img src="assets/profilepic.jpg" alt="Meagen Chong" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="intro-image-fallback" style="display: none;">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <h3 class="intro-name">MEAGEN CHONG</h3>
+                            <p class="intro-role">Applied Artificial Intelligence Student</p>
+                            <p class="intro-text"> A motivated Applied Artificial Intelligence student at Temasek
+                                Polytechnic (2024–2027), recognised on the Director’s List for
+                                academic excellence. Skilled in Python programming, machine learning, and cloud-based application development.
+                                Experienced in training and deploying models, implementing OCR-based image processing, and integrating automation
+                                workflows into real-world projects. Skilled in building functional AI solutions through data preprocessing, model
+                                evaluation, and user-focused app development using tools such as TensorFlow, AWS, Flutter, and UiPath. Recognised
+                                for analytical problem-solving, attention to detail, and effective teamwork through multiple academic and
+                                co-curricular projects in AI and software development. Driven to apply technical knowledge, learn advanced
+                                techniques, and contribute meaningfully to impactful technology projects.
+                            </p>
+                            <div class="personal-details">
+                                <h4>Personal Details</h4>
+                                <ul>
+                                    <!-- <li>Age: <span>20 years old</span></li> -->
+                                    <!-- <li>Birthdate: <span>00-00-00</span></li> -->
+                                    <li>Phone: <span>90718328</span></li>
+                                    <li>Email: <span>meagen666@gmail.com</span></li>
+                                    <!-- <li>Address: <span>Philippines, Ligaya Street</span></li> -->
+                                </ul>
+                            </div>
+                            <!-- <div class="interests">
+                                <h4>Interests</h4>
+                                <div class="interests-grid">
+                                    <div class="interest-item">
+                                        <i class="fas fa-gamepad"></i>
+                                        <span>Games</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-music"></i>
+                                        <span>Music</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-book"></i>
+                                        <span>Manga</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-play"></i>
+                                        <span>Anime</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-film"></i>
+                                        <span>Movies</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-code"></i>
+                                        <span>Coding</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div id="skills" class="about-section-content">
+                        <h3 class="section-heading">• Skills</h3>
+                        <div class="skills-container">
+                            <div class="skill-card">
+                                <h4>Software & Website Development</h4>
+                                <p class="skill-description">
+                                    I specialize in developing dynamic websites and software applications, ensuring robust functionality and seamless performance across all platforms.
+                                </p>
+                                <h5>Tools I use</h5>
+                                <div class="skill-tools">
+                                    <span class="tool-tag">HTML</span>
+                                    <span class="tool-tag">CSS</span>
+                                    <span class="tool-tag">JavaScript</span>
+                                    <span class="tool-tag">Flutter</span>
+                                    <span class="tool-tag">React</span>
+                                    <span class="tool-tag">JAVA</span>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <h4>UI/UX & Graphic Design</h4>
+                                <p class="skill-description">
+                                    I create visually compelling and user-friendly designs, enhancing the overall user experience with attention to detail and creativity.
+                                </p>
+                                <h5>Tools I use</h5>
+                                <div class="skill-tools">
+                                    <span class="tool-tag">FIGMA</span>
+                                    <span class="tool-tag">CANVA</span>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <h4>Cloud & Data Tools</h4>
+                                <p class="skill-description">
+                                    I develop and deploy data-driven applications using cloud platforms and automation tools, leveraging AWS for scalable hosting, MySQL for structured data management, UiPath for workflow automation, and KNIME/Power BI for data analysis and visualisation to support informed decision-making.
+                                </p>
+                                <h5>Tools I use</h5>
+                                <div class="skill-tools">
+                                    <span class="tool-tag">AWS</span>
+                                    <span class="tool-tag">My SQL Workbench</span>
+                                    <span class="tool-tag">UiPath</span>
+                                    <span class="tool-tag">KNIME</span>
+                                    <span class="tool-tag">Power BI</span>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <h4>Machine Learning & AI Development</h4>
+                                <p class="skill-description">
+                                    I design and implement machine learning models by preparing datasets, training deep learning networks, and
+                                    applying natural language processing techniques, enabling accurate predictions and practical AI-driven
+                                    features in my projects.
+                                </p>
+                                <h5>Tools I use</h5>
+                                <div class="skill-tools">
+                                    <span class="tool-tag">Python</span>
+                                    <span class="tool-tag">Tensorflow</span>
+                                    <span class="tool-tag">NLTK</span>
+                                    <span class="tool-tag">Scikit-learn</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div id="education" class="about-section-content">
+                        <h3 class="section-heading">• Education</h3>
+                        <div class="education-list">
+                            <div class="education-item">
+                                <div class="education-logo-placeholder">
+                                    <img src="assets/chij-st-josephs-convent.jpg" alt="SJC" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                    <i class="fas fa-graduation-cap" style="display: none;"></i>
+                                </div>
+                                <div class="education-details">
+                                    <h4>CHIJ St. Joseph's Convent</h4>
+                                    <p class="education-level">Secondary School Level</p>
+                                    <p class="education-location">2019-2022</p>
+                                    <p class="education-description">
+                                        Studied at CHIJ St Joseph’s Convent, an all-girls mission school known for strong character development and
+                                        holistic education. Awarded Edusave Scholarships and Bursaries throughout four years for top academic
+                                        performance and conduct, and served as Fencing Captain, fostering team discipline and growth and actively
+                                        contributing to school life.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="education-item">
+                                <div class="education-logo-placeholder">
+                                    <img src="assets/temasek-poly.jpg" alt="Temasek Polytechnic" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                    <i class="fas fa-graduation-cap" style="display: none;"></i>
+                                </div>
+                                <div class="education-details">
+                                    <h4>Temasek Polytechnic</h4>
+                                    <p class="education-level">Diploma Level</p>
+                                    <p class="education-location">2024-2027</p>
+                                    <p class="education-description">
+                                        Studying at Temasek Polytechnic, a leading institution recognised for its strong industry-focused curriculum and
+                                        hands-on technological training. Pursuing the Diploma in Applied Artificial Intelligence, gaining practical
+                                        experience in machine learning, deep learning, natural language processing, cloud application development, and
+                                        automation. Achieved Director’s List for academic excellence and actively contributes to the Applied AI Student
+                                        Interest Group as Honorary Treasurer, organising workshops and supporting AI literacy among students.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="page-number">03</div>
+        <div class="background-pattern"></div>
+        <div class="projects-container">
+            <div class="projects-header">
+                <div class="projects-title-section">
+                    <h2 class="projects-title">PROJECTS</h2>
+                    <p class="projects-subtitle">A Collection of My Recent Works.</p>
+                </div>
+                <div class="projects-navigation">
+                    <span class="nav-label">Navigate</span>
+                    <button class="nav-arrow prev-arrow">‹</button>
+                    <button class="nav-arrow next-arrow">›</button>
+                    <div class="nav-dot"></div>
+                </div>
+            </div>
+            
+            <!-- Selected Project Display -->
+            <div id="selected-project" class="selected-project">
+                <div class="selected-project-content">
+                    <div class="selected-project-media">
+                        <div class="media-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Project Image/Video</p>
+                        </div>
+                    </div>
+                    <div class="selected-project-info">
+                        <h3 id="selected-project-name">Smoking & Drinking Behaviour Prediction</h3>
+                        <p class="project-subtitle" id="selected-project-subtitle">A predictive model analysing lifestyle factors to classify smoking and drinking behaviour.</p>
+                        <p id="selected-project-description">
+                            Developed a classification model using Python, Pandas, and Scikit-learn to predict smoking and drinking status based on demographic and health-related features. Performed data cleaning, feature engineering, model training, and evaluation using metrics such as accuracy and recall. Visualised insights using Matplotlib and Seaborn to identify key behaviour patterns.
+                        </p>
+                        <div class="project-buttons">
+                            <button class="btn-visit" id="btn-visit" style="display: none;">Visit Page</button>
+                            <button class="btn-github" id="btn-github" style="display: none;">Github</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Projects -->
+            <div class="other-projects">
+                <h3 class="other-projects-title">Other Projects</h3>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+                    <button class="filter-btn" data-filter="cloud">Cloud & Deployment</button>
+                    <button class="filter-btn" data-filter="automation">Automation & Workflow</button>
+                    <button class="filter-btn" data-filter="web">Web & App Development</button>
+                </div>
+                <div class="projects-grid" id="projects-grid">
+                    <div class="project-box" data-project="1" data-category="ai">
+                        <div class="project-media-preview">
+                            <div class="media-placeholder-small">
+                                <i class="fas fa-image"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Smoking & Drinking Behaviour Prediction</h4>
+                            <p class="project-category">AI & Machine Learning</p>
+                        </div>
+                    </div>
+                    <div class="project-box" data-project="2" data-category="cloud">
+                        <div class="project-media-preview">
+                            <div class="media-placeholder-small">
+                                <i class="fas fa-image"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>SmartQueue</h4>
+                            <p class="project-category">Cloud & Deployment</p>
+                        </div>
+                    </div>
+                    <div class="project-box" data-project="3" data-category="automation">
+                        <div class="project-media-preview">
+                            <div class="media-placeholder-small">
+                                <i class="fas fa-image"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>SmartClaim</h4>
+                            <p class="project-category">Automation & Workflow Engineering</p>
+                        </div>
+                    </div>
+                    <div class="project-box" data-project="4" data-category="web">
+                        <div class="project-media-preview">
+                            <div class="media-placeholder-small">
+                                <i class="fas fa-image"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>ChompChamp</h4>
+                            <p class="project-category">Web & App Development</p>
+                        </div>
+                    </div>
+                    <div class="project-box" data-project="5" data-category="web">
+                        <div class="project-media-preview">
+                            <div class="media-placeholder-small">
+                                <i class="fas fa-image"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>TP VendoSmart</h4>
+                            <p class="project-category">Web & App Development</p>
+                        </div>
+                    </div>
+                    <div class="project-box" data-project="6" data-category="web">
+                        <div class="project-media-preview">
+                            <div class="media-placeholder-small">
+                                <i class="fas fa-image"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Temasek Polytechnic CCA Showcase</h4>
+                            <p class="project-category">Web & App Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities / Competitions Section -->
+    <section id="activities" class="section">
+        <div class="page-number">04</div>
+        <div class="background-pattern"></div>
+        <div class="activities-container">
+            <h2 class="activities-title">EVENTS & ACTIVITIES</h2>
+            <p class="activities-subtitle">Events, student activities and certifications I've participated in.</p>
+
+            <div class="activities-subsection">
+                <h3 class="activities-subheading">Events</h3>
+                <div class="activities-grid activities-grid--events" id="activities-events">
+                    <!-- Events will be rendered here by script.js -->
+                </div>
+            </div>
+
+            <div class="activities-subsection">
+                <h3 class="activities-subheading">Certifications</h3>
+                <div class="activities-grid activities-grid--certs" id="activities-certs">
+                    <!-- Certifications will be rendered here by script.js -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <iframe id="resume-frame" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
