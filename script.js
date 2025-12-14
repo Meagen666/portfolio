@@ -208,21 +208,21 @@ document.addEventListener('DOMContentLoaded', function() {
         certs: [
             {
                 title: 'KNIME',
-                date: 'Dec 2023',
+                date: 'Aug 2024',
                 description: 'Achieved basic proficiency in building data workflows using the KNIME analytics platform.',
                 img: 'assets/knime.png',
                 iconFallback: 'fas fa-certificate'
             },
             {
                 title: 'NETS',
-                date: 'Jul 2024',
+                date: 'Sep 2025',
                 description: 'Integrated NETS QR payment into a Flutter application using official NETS APIs.',
                 img: 'assets/nets.png',
                 iconFallback: 'fas fa-certificate'
             },
             {
                 title: 'Udemy ',
-                date: 'Jul 2024',
+                date: 'Dec 2025',
                 description: 'Completed a course on building fully responsive websites from scratch using HTML and CSS.',
                 img: 'assets/udemy_html_css.png',
                 iconFallback: 'fas fa-certificate'
