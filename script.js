@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Track current selected project
     let currentProjectId = 1;
 
-    // Activities data (events and certifications) - add as many items as needed
+    // Activities data
     const activitiesData = {
         events: [
             {
@@ -208,16 +208,30 @@ document.addEventListener('DOMContentLoaded', function() {
         certs: [
             {
                 title: 'KNIME',
-                date: 'Aug 2024',
+                date: 'Dec 2023',
                 description: 'Achieved basic proficiency in building data workflows using the KNIME analytics platform.',
                 img: 'assets/knime.png',
                 iconFallback: 'fas fa-certificate'
             },
             {
+                title: "Director's List",
+                date: 'May 2025',
+                description: 'Recognised for outstanding academic performance in AY2024/2025',
+                img: 'assets/directors_list.png',
+                iconFallback: 'fas fa-certificate'
+            },
+            {
                 title: 'NETS',
-                date: 'Sep 2025',
+                date: 'Sept 2025',
                 description: 'Integrated NETS QR payment into a Flutter application using official NETS APIs.',
                 img: 'assets/nets.png',
+                iconFallback: 'fas fa-certificate'
+            },
+            {
+                title: 'OBS Temasek Polytechnic Leadership Programme',
+                date: 'Sept 2025',
+                description: 'Participated in the OBS Temasek Polytechnic Leadership Programme to enhance leadership skills and teamwork.',
+                img: 'assets/obs.png',
                 iconFallback: 'fas fa-certificate'
             },
             {
@@ -225,6 +239,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 date: 'Dec 2025',
                 description: 'Completed a course on building fully responsive websites from scratch using HTML and CSS.',
                 img: 'assets/udemy_html_css.png',
+                iconFallback: 'fas fa-certificate'
+            },
+            {
+                title: 'WorldSkills Singapore – Software Testing (2025)',
+                date: 'Sept 2025',
+                description: 'Participated in the WorldSkills Singapore – Software Testing (2025) competition to enhance software testing skills and knowledge.',
+                img: 'assets/worldskills.png',
                 iconFallback: 'fas fa-certificate'
             }
         ]
@@ -450,7 +471,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Try to play the video
                     const tryPlay = () => {
                         video.play().catch(() => {
-                            // Autoplay prevented, will play on hover
                         });
                     };
                     
@@ -462,9 +482,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         video.play().catch(() => {});
                     });
                     
-                    // Pause on mouse leave (optional - you can remove this if you want videos to keep playing)
+                    // Pause on mouse leave
                     box.addEventListener('mouseleave', () => {
-                        // Keep playing - remove this if you want to pause on leave
                     });
                     
                     setTimeout(tryPlay, 100);
@@ -649,5 +668,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
-
-
