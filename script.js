@@ -192,14 +192,14 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'Opportunity Festival',
-                date: '14 Sep 2025',
+                date: '19 Nov 2025',
                 description: 'Networked with companies and universities invited by TP to explore further education, industry insights, and career opportunities.',
                 img: 'assets/opportunity_fest.jpg',
                 iconFallback: 'fas fa-user'
             },
             {
                 title: 'IITSC Code with Kids',
-                date: '14 Sep 2025',
+                date: '23 Nov 2025',
                 description: 'Guided children through multiple AI platforms to spark early interest in technology.',
                 img: 'assets/codewithkids.jpg',
                 iconFallback: 'fas fa-user'
@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'OBS Temasek Polytechnic Leadership Programme',
-                date: 'Sept 2025',
+                date: '22-23 Sept 2025',
                 description: 'Participated in the OBS Temasek Polytechnic Leadership Programme to enhance leadership skills and teamwork.',
                 img: 'assets/obs.png',
                 iconFallback: 'fas fa-certificate'
@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'WorldSkills Singapore – Software Testing (2025)',
-                date: 'Sept 2025',
+                date: '16-18 Dec 2025',
                 description: 'Participated in the WorldSkills Singapore – Software Testing (2025) competition to enhance software testing skills and knowledge.',
                 img: 'assets/worldskills.png',
                 iconFallback: 'fas fa-certificate'
